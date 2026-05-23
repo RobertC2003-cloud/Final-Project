@@ -38,6 +38,11 @@
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
+  color: black;
+}
+
+.navbar__links .btn {
+    color: white;
 }
 
 .btn {
@@ -47,4 +52,23 @@
     border-radius: 999px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__description {
+    display:flex;
+    flex-direction: column;
+}
+
+.hero__description {
+    width: 40%;
+}
+
+.hero-image {
+    width: 60%;
 }
