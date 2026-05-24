@@ -123,6 +123,7 @@
     max-width: 1100px;
     text-align: center;
     margin: 0 auto;
+    
 
 }
 
@@ -141,5 +142,28 @@
   background-color: #f7f7f7;
 }
 
+.feature-card {
+    width: 30%;
+    padding: 20px;
+}
 
+.Quality {
+    display: flex;
+    align-items: center;
 
+}
+
+.Quality__Image {
+    width: 50%;
+    height: auto;
+}
+
+.steps-section {
+    display: flex;
+    align-items: center;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+}
