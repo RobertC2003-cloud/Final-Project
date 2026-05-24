@@ -116,7 +116,6 @@
 }
 
 .features-section {
-    display: grid;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -165,5 +164,6 @@
 
 .values {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    width: 50%;
 }
