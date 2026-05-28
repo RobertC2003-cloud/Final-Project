@@ -341,3 +341,46 @@
     width: 120px;
     height: 40px;
 }
+
+.steps-section {
+    justify-content: center;
+    padding: 100px 120px;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.small_title {
+    color: #5b2eff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.steps-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 60px;
+}
+
+.steps-section h2 span {
+    color: #5b2eff
+}
+
+.steps-container {
+    gap: 20px;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.step_para {
+    margin-bottom: 20px;
+}
+
+.number {
+    
+
+
+
+}
