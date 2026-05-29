@@ -339,10 +339,10 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 100px 0;
+  background: white;
 }
 
-.steps__img--wrapper,
-.steps-content {
+.steps__img--wrapper {
   width: 50%;
 }
 
@@ -350,19 +350,33 @@
   width: 100%;
 }
 
+.steps__header,
+.steps-container {
+  width: 50%;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .step {
   display: flex;
   align-items: flex-start;
   gap: 24px;
-  margin-bottom: 32px;
 }
 
-.number {
+.step__number {
   font-size: 36px;
   font-weight: 700;
   color: #cbd5e0;
 }
 
+.step_para {
+  color: #718096;
+  line-height: 1.6;
+}
 
 .features {
     padding: 80px 0;
