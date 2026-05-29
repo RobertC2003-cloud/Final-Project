@@ -351,11 +351,13 @@
 
 .steps__right {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
-.steps--header,
+.steps__header,
 .steps-container {
-  width: 50%;
+  width: 100%;
 }
 
 .step {
