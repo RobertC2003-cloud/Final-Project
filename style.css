@@ -353,11 +353,9 @@
   width: 50%;
 }
 
+.steps--header,
 .steps-container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-left: 0;
+  width: 50%;
 }
 
 .step {
