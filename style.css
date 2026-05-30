@@ -341,13 +341,6 @@
   width: 50%;
 }
 
-.steps-content {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
 
 .steps__img--wrapper {
   width: 50%;
@@ -361,6 +354,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 
 .steps__header,
