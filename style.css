@@ -333,17 +333,12 @@
 .steps-section {
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 80px;
   
 }
 
-.steps__left {
-  width: 50%;
-}
-
-
 .steps__img--wrapper {
-  width: 50%;
+  width: 42%;
 }
 
 .steps__img--wrapper img {
@@ -351,7 +346,7 @@
 }
 
 .steps__right {
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   gap: 24px;
