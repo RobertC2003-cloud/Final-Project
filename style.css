@@ -348,12 +348,6 @@
   gap: 24px;
 }
 
-.steps-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
 
 .steps__img--wrapper {
   width: 50%;
@@ -372,6 +366,12 @@
 .steps__header,
 .steps-container {
   width: 100%;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .step {
