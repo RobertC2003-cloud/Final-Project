@@ -259,19 +259,6 @@
     flex-direction: column;
 }
 
-.pricing-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.pricing-cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
   
 .card-header {
     display: flex;
@@ -389,6 +376,112 @@
   color: #718096;
   line-height: 1.6;
 }
+
+/* pricing section */
+
+.pricing {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-container h3 {
+  color: #6415ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pricing-container h2 {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #243e63;
+}
+
+.pricing-container p {
+  max-width: 600px;
+  margin: 0 auto 60px;
+  color: #7c8ba1;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  overflow: hidden;
+  width: 350px;
+}
+
+.pricing-card.featured {
+  background: linear-gradient(
+    135deg,
+    #4c51bf,
+    #667eea
+  );
+  color: white;
+}
+
+.pricing-card.featured p,
+.pricing-card.featured li {
+  color: white;
+}
+
+.card-header {
+  padding: 40px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.card-header h2 {
+  font-size: 56px;
+  margin: 15px 0;
+}
+
+.card-body {
+  padding: 40px 20px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-body li {
+  margin: 20px 0;
+  color: #7c8ba1;
+}
+
+.card-footer {
+  padding: 30px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.card-footer button {
+  border: none;
+  border-radius: 50px;
+  padding: 16px 48px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  background: #4fd1c5;
+}
+
+.featured .card-footer button {
+  background: white;
+  color: #6415ff;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 60px;
+}
+
+
+
 
 .features {
     padding: 80px 0;
