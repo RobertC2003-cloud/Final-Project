@@ -267,10 +267,12 @@
     display: flex;
     gap: 32px;
     margin-top: 32px;
+    padding: 20px;
 }
 
 .feature__icon {
   flex: 1;
+  padding: 20px;
 }
   
 .card-header {
