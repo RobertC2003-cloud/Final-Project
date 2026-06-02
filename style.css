@@ -465,6 +465,10 @@
   text-align: center;
 }
 
+.pricing-business {
+  color: white;
+}
+
 .pricing-subheader {
   margin-top: 16px;
   line-height: 1.25;
