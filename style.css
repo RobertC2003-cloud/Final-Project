@@ -253,10 +253,12 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 80px 0;
+    gap: 96px;
 }
 
 .values__description {
     width: 50%;
+    max-width: 640px;
 }
 
 .img__values {
@@ -265,16 +267,80 @@
 
 .values__features {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     margin-top: 32px;
-    padding: 20px;
+    padding: 0px;
 }
 
 .feature__icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
   flex: 1;
-  padding: 20px;
 }
-  
+
+.values__description > div:first-child p {
+  max-width: 520px;
+  line-height: 1.8;
+}
+
+.value__img--wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green .value__img--wrapper {
+  background-color: #9ae6b4;
+  width: 70px;
+  border-radius: 50%;
+  display:flex;
+}
+
+.pink .value__img--wrapper {
+  background-color: #feb2b2;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.feature--text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feature--text h3 {
+  font-size: 20px;
+  margin: 0 0 12px 0;
+}
+
+.feature--text p {
+  color: #7c8ba1;
+  line-height: 1.6;
+  margin-left: -40px;
+  position: relative;
+}
+
+.btn {
+  margin-top: 32px;
+}
+
+.subheader__values {
+  margin-bottom: 32px;
+  margin-top: 16px;
+  line-height: 1.25;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color:#243e63;
+}
+
+
 .card-header {
     display: flex;
     justify-content: center;
@@ -396,6 +462,24 @@
 
 .pricing {
   padding: 80px 0;
+  text-align: center;
+}
+
+.pricing-subheader {
+  margin-top: 16px;
+  line-height: 1.25;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color:#7c8ba1;
+}
+
+.pricing-para {
+  color: #7c8ba1;
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto;
+  font: 16px;
   text-align: center;
 }
 
