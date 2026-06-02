@@ -465,7 +465,7 @@
   text-align: center;
 }
 
-.pricing-business {
+.pricing-card.featured .pricing-business {
   color: white;
 }
 
@@ -516,7 +516,21 @@
   box-shadow: 0 5px 15px rgba(0,0,0,.1);
   overflow: hidden;
   width: 350px;
+  border-top: 6px solid transparent;
 }
+
+.pricing-card.personal {
+  border-top-color: #3cc7bd;
+}
+
+.pricing-card.featured {
+  border-top-color: #4d5df2;
+}
+
+.pricing-card.enterprise {
+  border-top-color: #ff7f83;
+}
+
 
 .pricing-card.featured {
   background: linear-gradient(
@@ -582,8 +596,6 @@
   gap: 32px;
   margin-top: 60px;
 }
-
-
 
 
 .features {
