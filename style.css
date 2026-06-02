@@ -260,13 +260,17 @@
 }
 
 .img__values {
-    width: 50%;
+    width: 45%;
 }
 
 .values__features {
     display: flex;
     gap: 32px;
     margin-top: 32px;
+}
+
+.feature__icon {
+  flex: 1;
 }
   
 .card-header {
