@@ -520,15 +520,15 @@
 }
 
 .pricing-card.personal .card-footer button {
-  border-top-color: #3cc7bd;
+  border-top: #3cc7bd;
 }
 
 .pricing-card.featured .card-footer button {
-  border-top-color: #4d5df2;
+  border-top: #4d5df2;
 }
 
 .pricing-card.enterprise .card-footer button {
-  border-top-color: #ff7f83;
+  border-top: #ff7f83;
 }
 
 
