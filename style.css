@@ -493,7 +493,7 @@
 }
 
 .pricing-container h3 {
-  color: #6415ff;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -501,8 +501,9 @@
 .pricing-container h2 {
   font-size: 48px;
   margin: 20px 0;
-  color: #243e63;
+  color: black;
 }
+
 
 .pricing-container p {
   max-width: 600px;
@@ -519,16 +520,29 @@
   border-top: 6px solid transparent;
 }
 
+.pricing-card.personal {
+  border-top: 6px solid #3cc7bd;
+}
+
+.pricing-card.featured {
+  border-top: 6px solid #4d5df2;
+}
+
+.pricing-card.enterprise {
+  border-top: 6px solid #ff7f83;
+}
+
+
 .pricing-card.personal .card-footer button {
-  border-top: #3cc7bd;
+  background: #3cc7bd;
 }
 
 .pricing-card.featured .card-footer button {
-  border-top: #4d5df2;
+  background: white;
 }
 
 .pricing-card.enterprise .card-footer button {
-  border-top: #ff7f83;
+  background: #ff7f83;
 }
 
 
