@@ -358,35 +358,9 @@
     text-align: center;
 }
 
-.card-footer {
-    display: flex; 
-    justify-content: center
-}
 
-.footer {
-    display: grid;
-    justify-content: center;
-    flex-direction: center;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
-    background: #6415ff;
-    color: white;
-    grid-template-columns: repeat(5,1fr);
-}
+/* Steps Section */
 
-.footer-bottom {
-    display: flex;
-    width: 120px;
-    height: 40px;
-}
-
-.social-logos {
-    display: flex;
-    gap: 16px;
-    width: 120px;
-    height: 40px;
-}
 
 .steps-section {
   display: flex;
@@ -663,3 +637,36 @@ section.values {
   border-width: 30px;
 }
 
+/* Footer Section */
+
+.footer {
+  background: #6415ff;
+  color: white;
+  padding: 80px 32px 40px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footer-column ul { list-style: none; padding: 0; margin-top: 16px; }
+.footer-column a { color: white; text-decoration: none; }
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 60px auto 0;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255,255,255,.25);
+}
+
+.footer-logo { display: flex; align-items: center; gap: 12px; }
+.footer-logo img { width: 40px; height: 40px; }
+.social-logos { display: flex; gap: 16px; }
+.social-logos img { width: 32px; height: 32px; object-fit: contain; }
