@@ -270,6 +270,7 @@
         width: 90%;
         gap: 64px;
         margin: 96px auto 0;
+        margin-bottom: 122px;
     }
 
     .Quality__description {
@@ -277,6 +278,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin: 0;
     }
 
     .quality__title {
@@ -454,15 +456,6 @@
   cursor: pointer;
 }
 
-.header__values {
-  font-size: 16px;
-  color: #6415ff;
-  letter-spacing: 1.6px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-
 .subheader__values {
   margin-bottom: 32px;
   margin-top: 16px;
@@ -552,7 +545,7 @@
 
 .small_title { 
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #6415ff;
@@ -606,7 +599,7 @@
 }
 
 .pricing-container h3 {
-  color: black;
+  color: #6415ff;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
