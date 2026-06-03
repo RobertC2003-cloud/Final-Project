@@ -617,15 +617,29 @@ section.values {
   line-height: 1.5;
 }
 
+.cta-btn {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
 .start-btn {
   display: flex;
   gap: 24px;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 50px;
   border-radius: 50px;
-  border-width: 30px;
+  border-width: 1px;
   background: #f56e6e;
   color: white;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  justify-content: center;
 }
 
 .contact-btn {
@@ -634,7 +648,17 @@ section.values {
   gap: 24px;
   align-items: center;
   border-radius: 50px;
-  border-width: 30px;
+  border-width: 1px;
+  background: #6415ff;
+  color: white;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  justify-content: center;
 }
 
 /* Footer Section */
@@ -651,6 +675,7 @@ section.values {
   gap: 40px;
   max-width: 1280px;
   margin: 0 auto;
+  line-height: 2.0;
 }
 
 .footer-column ul { list-style: none; padding: 0; margin-top: 16px; }
