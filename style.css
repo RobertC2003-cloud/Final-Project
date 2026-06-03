@@ -263,101 +263,70 @@
 
     /* Quality Section */
 
-    .Quality__container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 90%;
-        gap: 64px;
-        margin: 96px auto 0;
-        margin-bottom: 122px;
-    }
-
-    .Quality__description {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0;
-    }
-
-    .quality__title {
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 1.6px;
-        text-transform: uppercase;
-        color: #6415ff;
-    }
-
-    .quality__subtitle {
-        font-size: 48px;
-        font-weight: 900;
-        line-height: 1.15;
-        color: #243e63;
-        margin: 16px 0;
-    }
-
-    .quality__para {
-        font-size: 18px;
-        font-weight: 500;
-        color: #7c8ba1;
-        line-height: 1.625;
-        max-width: 560px;
-    }
-
-    .button {
-        background: #5b2eff;
-        color: white;
-        border: none;
-        padding: 12px 32px;
-        font-size: 16px;
-        border-radius: 9999px;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        margin-top: 32px;
-    }
-
-    .button:hover {
-      background-color: #6415ff;
-    }
-
-    .button:active {
-      transform: translateY(1px);
-    }
-
-    .black-text {
-        color: black;
-    }
-
-    .quality-image {
-        width: 100%;
-        max-width: 750px;
-        border: 1px solid #e2e7eb;
-    }
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 40px;
-  background-color: #f7f7f7;
-}
-
-.Quality {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.Quality__Image {
-  width: 50%;
-  max-width: 448px;
-  margin: 0;
-  justify-content: center;
+  .hero {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.hero__left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.hero__right {
+  flex: 1;
+}
+
+.hero__right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero__tag {
+  color: #6415ff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.text-purple {
+  color: #6415ff;
+}
+
+.hero__para {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.hero__btn {
+  background-color: #6415ff;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.hero__btn:hover {
+  background-color: #667eea;
+}  
 
 
 /* Values Section */
