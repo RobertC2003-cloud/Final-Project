@@ -85,7 +85,7 @@
 }
 
 .btn__menu {
-    display: none;
+    display: block;
     background: transparent;
     border: none;
     font-size: 24px;
@@ -816,6 +816,10 @@ section.values {
 
 
 @media (max-width: 768px) {
+
+  .navbar {
+    padding: 16px 24px;
+  }
 
   .btn__menu {
         display: block;
