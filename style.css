@@ -90,6 +90,7 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
+    color: black;
 }
 
 .purple {
@@ -816,13 +817,14 @@ section.values {
 
 @media (max-width: 768px) {
 
-  .navbar {
-   flex-direction: row;
-  }
+  .btn__menu {
+        display: block;
+    }
 
   .navbar__links {
     display: none;
   }
+
 
   .hero,
   .quality-section,
