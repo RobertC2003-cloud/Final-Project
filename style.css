@@ -84,14 +84,23 @@
   right: 8px;
 }
 
-.btn__menu {
-    display: block;
-    background: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: black;
+  .btn__menu {
+  display: block;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
 }
+
+.btn__menu i {
+  display: inline-block !important;
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+  font-size: 32px;
+  color: red;
+}
+
 
 .purple {
   color: #6415ff;
@@ -817,9 +826,6 @@ section.values {
 
 @media (max-width: 768px) {
 
-  .navbar {
-    padding: 16px 24px;
-  }
 
   .btn__menu {
         display: block;
