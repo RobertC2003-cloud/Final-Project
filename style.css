@@ -963,13 +963,23 @@ section.values {
     margin-bottom: 20px;
   }
 
-  .steps-container {
+  .step {
     text-align: center;
     flex-direction: column;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    font-size: 20px;
   }
+
+  .values__paragraph {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+
   
 
   .hero__description,
@@ -991,6 +1001,22 @@ section.values {
 
   .values__features {
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .feature--text h3 {
+    margin-right: 43px;
+  }
+
+  .btn {
+    margin-left: 24px;
+  }
+
+  .cta-text h2 {
+    text-align: center;
+    margin-right: 60px;
+    margin-bottom: 16px;
   }
 
   .pricing-cards {
@@ -999,7 +1025,7 @@ section.values {
   }
 
   .footer-top {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, fr);
   }
 
   .footer-bottom {
