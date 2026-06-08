@@ -1072,6 +1072,16 @@ section.values {
     max-width: 380px;
    }
 
+   .subheader__values {
+    font-size: 30px;
+    line-height: 1.25;
+   }
+
+   .feature--text h3 {
+    margin: 0 auto;
+    flex-direction: column;
+   }
+
    .pricing {
     max-width: 370px;
     margin: 0 auto;
@@ -1099,6 +1109,10 @@ section.values {
 
    .steps-section {
     max-width: 320px;
+   }
+
+   .step__number {
+    margin: 0 auto;
    }
 
   .footer-bottom {
