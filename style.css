@@ -490,7 +490,18 @@
 }
 
 .steps__img--wrapper {
-  width: 60%;
+  width: 50%;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.value__img {
+  width: 35px;
+  height: 20px;
 }
 
 .steps__img--wrapper img {
@@ -519,6 +530,14 @@
   display: flex;
   align-items: flex-start;
   gap: 24px;
+}
+
+.green .value__img--wrapper {
+  background-color: #9ae6b4;
+}
+
+.pink .value__img--wrapper {
+  background-color: #feb2b2;
 }
 
 .step__number {
@@ -935,6 +954,25 @@ section.values {
   text-align: center;
   width: 100%;
   }
+
+  .feature--text h3 {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+.value__img--wrapper {
+  width: 20px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+  margin: 0 auto;
+}
 
   /* HERO SECTION */
 
