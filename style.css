@@ -899,6 +899,12 @@ section.values {
   padding: 80px 24px;
 }
 
+.feature__icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 .feature__description {
   max-width: 576px;
   margin: 0 auto 48px;
@@ -925,6 +931,15 @@ section.values {
 
 .feature-p {
   font-size: 16px;
+  text-align: left;
+}
+
+.feature-text p {
+  margin: 0;
+  max-width: 220px;
+}
+
+.feature-text {
   text-align: left;
 }
 
@@ -955,23 +970,13 @@ section.values {
   width: 100%;
   }
 
-  .feature--text h3 {
-    justify-content: center;
-    margin: 0 auto;
-  }
-
 
 .value__img--wrapper {
-  width: 20px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   flex-shrink: 0;
-  margin: 0 auto;
 }
 
   /* HERO SECTION */
@@ -1027,7 +1032,7 @@ section.values {
   }
 
   .feature--text h3 {
-    margin-right: auto;
+    margin: 0 0 8px 0;
   }
 
   .btn {
