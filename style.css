@@ -430,8 +430,6 @@
 .feature--text p {
   color: #7c8ba1;
   line-height: 1.6;
-  margin-left: -40px;
-  position: relative;
 }
 
 .btn {
@@ -943,6 +941,26 @@ section.values {
   text-align: left;
 }
 
+.feature__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.feature--text {
+  text-align: left;
+}
+
+.feature--text h3 {
+  margin: 0;
+}
+
+.feature--text p {
+  margin: 8px 0 0 0;
+  text-align: left;
+}
+
 
   .hero,
   .quality-section,
@@ -1111,6 +1129,26 @@ section.values {
     margin-bottom: 12px;
    }
 
+   .feature__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.feature--text {
+  text-align: left;
+}
+
+.feature--text h3 {
+  margin: 0;
+}
+
+.feature--text p {
+  margin: 8px 0 0 0;
+  text-align: left;
+}
+
    .values {
     max-width: 380px;
    }
@@ -1120,10 +1158,6 @@ section.values {
     line-height: 1.25;
    }
 
-   .feature--text h3 {
-    margin: 0 auto;
-    flex-direction: column;
-   }
 
    .pricing {
     max-width: 370px;
